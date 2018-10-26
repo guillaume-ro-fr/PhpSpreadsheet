@@ -137,6 +137,7 @@ class WorksheetTest extends TestCase
         return [
             ['B2', '', '', 'B2'],
             ['testTitle!B2', 'testTitle', 'B2', 'B2'],
+            ["'testTitle'!B2", 'testTitle', 'B2', 'B2'],
             ['test!Title!B2', 'test!Title', 'B2', 'B2'],
             ['test Title!B2', 'test Title', 'B2', 'B2'],
             ['test!Title!B2', 'test!Title', 'B2', 'B2'],
